@@ -1,5 +1,5 @@
 # SmartTasker
-SmartTasker is an application that does certaine tasks for us. In this case, we want it to do posting in Facebook and set a reminder on Google Calendar.
+SmartTasker is an application that does certaine tasks for us. In this case, we want it to post posts in Facebook and set reminders on Google Calendar.
 
 ## Classes and Functions
 Main Classes
