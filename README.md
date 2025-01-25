@@ -44,19 +44,19 @@ Utility classes
 
 ## Responsibilities
 Sophal Chanrat (Project leader)
-- TaskManager
-- GoogleCalendarIntegration
-- APIClient
+   - TaskManager
+   - GoogleCalendarIntegration
+   - APIClient
 Te Chhenghab
-- SmartTaskerApp
-- FacebookIntegration
-- DataBaseManager
+   - SmartTaskerApp
+   - FacebookIntegration
+   - DataBaseManager
 Sithav Seavthean
-- Task
-- ConfigManager
+   - Task
+   - ConfigManager
 Phon Sokleaphea
-- UserInterface
-- NotificationService
+   - UserInterface
+   - NotificationService
   
 
 
