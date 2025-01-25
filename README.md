@@ -43,7 +43,21 @@ Utility classes
    - saveConfig
 
 ## Responsibilities
-
+Sophal Chanrat (Project leader)
+- TaskManager
+- GoogleCalendarIntegration
+- APIClient
+Te Chhenghab
+- SmartTaskerApp
+- FacebookIntegration
+- DataBaseManager
+Sithav Seavthean
+- Task
+- ConfigManager
+Phon Sokleaphea
+- UserInterface
+- NotificationService
+  
 
 
 
