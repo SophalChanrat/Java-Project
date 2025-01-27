@@ -50,13 +50,15 @@ Utility classes
 - Te Chhenghab
    - SmartTaskerApp
    - FacebookIntegration
-   - DataBaseManager
+   - APIClient
 - Sithav Seavthean
    - Task
    - ConfigManager
+   - DataBaseManager
 - Phon Sokleaphea
    - UserInterface
    - NotificationService
+   - DataBaseManager
   
 
 
