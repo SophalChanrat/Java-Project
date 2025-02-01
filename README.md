@@ -1,64 +1,56 @@
-# SmartTasker
-SmartTasker is an application that does certaine tasks for us. In this case, we want it to post posts in Facebook and set reminders on Google Calendar on a specfic date.
-
-## Classes and Functions
-Main Classes
-1. SmartTaskerApp
+# Track expenses application
+The track expenses applicaton is an application that tracks our expenses monthly by manually input the expenese based on the categories and it will genereate a report of the expenses monthly for users.
+## Core Features
+1. User managaement
+   - Register
+   - Login
+2. Expense
+   - Category
+   - Amount
+   - Date
+   - Display
+3. ExpenseManager
+   - Add
+   - View
+   - Total
+   - Delete
+   - Filter
+4. Budget
+   - SetBudget
+   - GetBudget
+   - CheckExceeded
+5. Budget management
+   - Budget
+   - Check
+   - Remaining
+6. ReportGenerator
+   - generateExpenseReport
+   - generateGraphicalReport
+   - exportToCSV
+7. DatabaseConnector 
+   - connect
+   - insertExpense
+   - getAllExpenses
+   - deleteExpense
+   - closeConnection
+8. ExpenseTrackerApp 
    - main
-   - initializeComponents
-3. TaskMannager
-   - addtask
-   - removetask
-   - getTaskByDate
-   - excuteScheduledTasks
-5. Task
-   - Task
-7. FacebookIntegration
-   - authenticate
-   - postToFacebook
-   - schedulePost
-9. GoogleCalendarIntegration
-    - authenticate
-    - addReminder
-    - getEventsByDate
-11. DataBaseManager
-    - connect
-    - saveTask
-    - deleteTask
-    - getAllTasks
-13. UserInterface
-    - displayMainMenu
-    - getUserInput
-    - displayTaskList
-    - notifyUser
-
-Utility classes
-1. APIClient
-   - sendPostRequest
-   - sendGetRequest
-2. NotificationService
-   - sendNotification
-3. ConfigManager
-   - loadConfig
-   - saveConfig
+   - showMainMenu
+   - handleUserInput
 
 ## Responsibilities
 - Sophal Chanrat (Project leader)
-   - TaskManager
-   - GoogleCalendarIntegration
-   - APIClient
+   - Expense managenment
+   - Expense
 - Te Chhenghab
-   - SmartTaskerApp
-   - FacebookIntegration
-   - APIClient
+   - ExpenseTrackerApp
+   - ReportGenerator
 - Sithav Seavthean
-   - Task
-   - ConfigManager
-   - DataBaseManager
+   - User management
+   - DatabaseConnector
 - Phon Sokleaphea
-   - UserInterface
-   - NotificationService
-   - DataBaseManager
+   - Budget management
+   - Budget
   
 
 
