@@ -19,7 +19,7 @@ public class Report {
         Category category;
         private List<String> items;
         private double amount;
-        public Expense(String date, Category category, List<String> item, double amount){
+        public Expense(String date, Category category, List<String> items, double amount){
             this.date = date;
             this.category = category;
             this.items = items;
