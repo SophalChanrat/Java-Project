@@ -1,15 +1,12 @@
 import java.util.Scanner;
-
 public class User {
     private String username;
     private String password;
-
     // Constructor
     public User(String username, String password) {
         this.username = username;
         this.password = password;
     }
-
     // Method to register a user
     public void register() {
         Scanner scanner = new Scanner(System.in);
@@ -19,7 +16,6 @@ public class User {
         this.password = scanner.nextLine();
         System.out.println("User registered successfully!");
     }
-
     // Method to login a user
     public boolean login() {
         Scanner scanner = new Scanner(System.in);
@@ -27,7 +23,6 @@ public class User {
         String username = scanner.nextLine();
         System.out.print("Enter password: ");
         String password = scanner.nextLine();
-
         if (this.username.equals(username) && this.password.equals(password)) {
             System.out.println("Login successful!");
             return true;
@@ -36,7 +31,6 @@ public class User {
             return false;
         }
     }
-
     public static void main(String[] args) {
         User user = new User("", "");
         user.register();
