@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class Um {
+public class User {
     private String username;
     private String password;
 
     // Constructor
-    public Um(String username, String password) {
+    public User(String username, String password) {
         this.username = username;
         this.password = password;
     }
@@ -38,7 +38,7 @@ public class Um {
     }
 
     public static void main(String[] args) {
-        Um user = new Um("", "");
+        User user = new User("", "");
         user.register();
         user.login();
     }
