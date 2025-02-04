@@ -15,6 +15,7 @@ The track expenses applicaton is an application that tracks our expenses monthly
    - Total
    - Delete
    - Filter
+   - Edit
 4. Budget
    - SetBudget
    - GetBudget
