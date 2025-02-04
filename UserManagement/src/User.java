@@ -18,7 +18,7 @@ public class User {
         System.out.print("Enter password: ");
         this.password = scanner.nextLine();
         System.out.println("User registered successfully!");
-        scanner.close();
+        
     }
     // Method to login a user
     public boolean login() {
@@ -27,7 +27,6 @@ public class User {
         String username = scanner.nextLine();
         System.out.print("Enter password: ");
         String password = scanner.nextLine();
-        scanner.close();
         if (this.username.equals(username) && this.password.equals(password)) {
             System.out.println("Login successful!");
             return true;
@@ -35,17 +34,20 @@ public class User {
             System.out.println("Invalid username or password.");
             System.out.print("Forget password?(yes/no) : ");
             String response = scanner.nextLine();
+            scanner.close();
                 if (response.equalsIgnoreCase("yes")) {
                     forgetpasword();
                 }
             return false;
+        
         }
+        
         
     }
 
     //Method to forget password
     public void forgetpasword(){
-
+        System.out.println("hello");
     }
     public static void main(String[] args) {
         User user = new User("", "");
